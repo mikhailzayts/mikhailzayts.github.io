@@ -18,6 +18,9 @@
   letter-spacing: -1px;
   margin-bottom: 0;
   float: left;
+  // border-bottom:1px solid #B2D2E1;
+  text-shadow:rgba(#fff, 0.9) 0 1px 0;
+
 
   &,
   &:visited {
@@ -28,6 +31,7 @@
 .site-nav {
   float: right;
   line-height: $base-line-height * $base-font-size * 2.25;
+  text-shadow:rgba(#fff, 0.9) 0 1px 0;
 
   .nav-trigger {
       display: none;

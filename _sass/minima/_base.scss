@@ -15,7 +15,7 @@ dl, dd, ol, ul, figure {
  */
 body {
   font: $base-font-weight #{$base-font-size}/#{$base-line-height} $base-font-family;
-  font-family: "PT Serif";
+  font-family: "PT Sans";
   color: $text-color;
   background-color: $background-color;
   -webkit-text-size-adjust: 100%;
@@ -151,26 +151,55 @@ blockquote {
  */
 pre,
 code {
+  font-family: "PT Mono", Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal, monospace;
   @include relative-font-size(0.9375);
-  border: 1px solid $grey-color-light;
-  border-radius: 3px;
-  background-color: #eef;
-}
-
-code {
-  padding: 1px 5px;
+  color:#efefef;
+  margin: 0 4px;
+  padding: 4px 6px;
+  border-radius: 7px;
+  background-color: #191919;
+  // box-shadow: inset 0 1px 3px rgba(0,0,0,.3);
 }
 
 pre {
-  padding: 8px 12px;
-  overflow-x: auto;
+  padding:8px 15px;
+  background: #191919;
+  border-radius: 8px;
+  border:1px solid #121212;
+  box-shadow: inset 0 1px 5px rgba(0,0,0,4);
+  overflow: auto;
+  overflow-y: hidden;
 
-  > code {
-    border: 0;
-    padding-right: 0;
-    padding-left: 0;
+  code {
+    color: #efefef;
+    text-shadow: 0px 1px 0px #000;
+    margin: 0;
+    padding: 0;
   }
 }
+
+// pre,
+// code {
+//   @include relative-font-size(0.9375);
+//   border: 1px solid $grey-color-light;
+//   border-radius: 3px;
+//   background-color: #eef;
+// }
+
+// code {
+//   padding: 1px 5px;
+// }
+
+// pre {
+//   padding: 8px 12px;
+//   overflow-x: auto;
+
+//   > code {
+//     border: 0;
+//     padding-right: 0;
+//     padding-left: 0;
+//   }
+// }
 
 
 
