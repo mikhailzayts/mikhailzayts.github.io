@@ -218,6 +218,7 @@
   display: block;
   @include relative-font-size(1.5);
   margin-bottom: 0;
+  text-shadow: 0 1px 0 #000;
   // margin: 0;
 }
 
