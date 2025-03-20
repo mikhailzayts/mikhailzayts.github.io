@@ -1,9 +1,9 @@
 ---
 layout: default
-title: Tags
+title: Тэги
 ---
 
-# Tags
+# Тэги
 <ul>
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
@@ -11,7 +11,7 @@ title: Tags
     {% endfor %}
 </ul>
 
-# Posts by tag
+# Посты по тэгам
 {% for tag in tags %}
 {% assign tag_name = tag | first %}
 ## #{{ tag_name }}
