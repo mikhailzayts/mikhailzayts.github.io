@@ -204,17 +204,22 @@
 
 .post-meta {
   font-size: $small-font-size;
+  font-style: italic;
   color: $grey-color;
+  margin-bottom: $spacing-unit;
 }
 
 .post-tags {
   font-family: "PT Mono";
+  font-style: normal;
   font-size: $small-font-size;
 }
 
 .post-link {
   display: block;
   @include relative-font-size(1.5);
+  margin-bottom: 0;
+  // margin: 0;
 }
 
 

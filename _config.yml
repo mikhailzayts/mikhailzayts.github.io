@@ -34,7 +34,7 @@ mastodon:
     instance: "mastodon.social"
 rss: RSS-канал
 
-default_lang: ru
+lang: ru
 
 # Build settings
 theme: minima
@@ -44,8 +44,8 @@ plugins:
 show_excerpts: true
 
 minima:
-  date_format: "%b %-d, %Y"
-  # date_format: "%b %-d, %Y %H:%M"
+  date_format: "Опубликовано %d.%m.%Y"
+  # date_format: "Oпубликовано %b %-d, %Y %H:%M"
 # Exclude from processing.
 # The following items will not be processed, by default.
 # Any item listed under the `exclude:` key here will be automatically added to
