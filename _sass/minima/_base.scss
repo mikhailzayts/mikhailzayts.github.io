@@ -56,7 +56,7 @@ main {
  * Images
  */
 img {
-  max-width: 100%;
+  max-width: 75%;
   vertical-align: middle;
 }
 
@@ -97,6 +97,8 @@ li {
 h1, h2, h3, h4, h5, h6 {
   font-family: "PT Serif";
   font-weight: 700;
+  // text-shadow: 1px 1px 0px $grey-color;
+  // text-shadow: 1px 1px 0px #000;
   // font-weight: $base-font-weight;
 }
 
@@ -110,7 +112,7 @@ a {
   text-decoration: none;
 
   &:visited {
-    color: darken($brand-color, 15%);
+    // color: darken($brand-color, 7%);
   }
 
   &:hover {
@@ -283,4 +285,11 @@ table {
   td {
     border: 1px solid $grey-color-light;
   }
+}
+
+/**
+ * The Thematic Break (Horizontal Rule)
+ */
+hr {
+  color: $grey-color-light;
 }
