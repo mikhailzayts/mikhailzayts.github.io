@@ -32,7 +32,7 @@ mastodon:
   - social:
     username: mikhailzayts
     instance: "mastodon.social"
-# rss: RSS feed
+rss: RSS-канал
 
 default_lang: ru
 
