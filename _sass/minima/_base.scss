@@ -112,7 +112,7 @@ a {
   text-decoration: none;
 
   &:visited {
-    // color: darken($brand-color, 7%);
+    color: darken($brand-color, 10%);
   }
 
   &:hover {
@@ -137,9 +137,9 @@ blockquote {
   color: $grey-color;
   border-left: 4px solid $grey-color-light;
   padding-left: $spacing-unit * 0.5;
-  @include relative-font-size(1.125);
-  letter-spacing: -1px;
-  font-style: italic;
+  @include relative-font-size(0.9375);
+  font-family: "PT Serif";
+  font-weight: 400;
 
   > :last-child {
     margin-bottom: 0;
