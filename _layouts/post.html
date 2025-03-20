@@ -15,6 +15,15 @@ layout: default
       {%- endif -%}</p>
   </header>
 
+  
+  {%- if page.tags -%}
+      {% for tag in page.tags %}
+          <a href="{{site.baseurl}}/tags.html#{{tag | slugize}}">
+              #{{ tag }}
+          </a>
+      {% endfor %}
+  {%- endif -%}
+
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
