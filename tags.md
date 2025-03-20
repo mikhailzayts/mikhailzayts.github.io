@@ -7,7 +7,7 @@ title: Tags
 <ul>
     {% assign tags = site.tags | sort %}
     {% for tag in tags %}
-        <a href="/tags.html#{{ tag[0] }}">#{{ tag[0] }}</a>
+        <a class="post-tags" href="/tags.html#{{ tag[0] }}">#{{ tag[0] }}</a>
     {% endfor %}
 </ul>
 

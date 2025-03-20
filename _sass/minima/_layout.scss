@@ -203,6 +203,11 @@
   color: $grey-color;
 }
 
+.post-tags {
+  font-family: "PT Mono";
+  font-size: $small-font-size;
+}
+
 .post-link {
   display: block;
   @include relative-font-size(1.5);
